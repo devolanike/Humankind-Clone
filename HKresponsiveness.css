@@ -1,0 +1,276 @@
+@media screen and (max-width: 1440px) {
+  .section6 {
+    height: 250vh;
+  }
+  .section5 {
+    height: 40vh;
+  }
+  .section7 {
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
+  .section4,
+  .section3 {
+    background-repeat: no-repeat;
+    height: 70vh;
+  }
+  header {
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section3 {
+    height: 100vh;
+    height: fit-content;
+    padding: 5%;
+  }
+  .div4a {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  .div4a > img {
+    width: 40%;
+    height: 40%;
+    align-self: self-start;
+  }
+  .div4b > h1 {
+    font-size: 20px;
+  }
+  .div4b > p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .section6 {
+    height: 250vh;
+  }
+  .section3 {
+    padding: 5%;
+  }
+  .sec6btn2 {
+    right: 5%;
+  }
+  .sec6btn1 {
+    right: 16%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .div4a {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  .div4b {
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+  }
+  .section3 {
+    height: 150vh;
+  }
+  .section3 > img {
+    width: 80%;
+    /* margin: 0% 0% 5%; */
+  }
+  .div4a {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  .div4a > img {
+    width: 40%;
+    height: 40%;
+    align-self: self-start;
+  }
+  .div4b > h1 {
+    font-size: 20px;
+  }
+  .div4b > p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .div5a > h2,
+  .div5b > h2,
+  .div5c > h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .section6 {
+    height: 400vh;
+    padding: 10% 5% 0%;
+  }
+  .sec6btn2 {
+    right: 4%;
+  }
+  .sec6btn1 {
+    right: 18%;
+  }
+  .div3b {
+    gap: 0px;
+  }
+  .row2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section7 {
+    padding: 0% 6%;
+  }
+  .footer {
+    padding: 50px 50px 20px 50px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .row1 {
+    grid-template-columns: 1fr;
+  }
+  .row2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .section2a {
+    font-size: 14px;
+  }
+  .section2b {
+    font-size: 30px;
+  }
+  .video > p {
+    font-size: 14px;
+  }
+  .div3b > h1 {
+    font-size: 25px;
+  }
+  .div8a,
+  .div8b,
+  .icons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section7 {
+    padding: 0% 5%;
+  }
+  .section3 {
+    flex-direction: column;
+    height: 150vh;
+  }
+  .section3 > img {
+    width: 80%;
+  }
+  .div5a > h2,
+  .div5b > h2,
+  .div5c > h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .div4a {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  .div4a > img {
+    width: 40%;
+    height: 40%;
+    align-self: self-start;
+  }
+  .div4b {
+    gap: 8px;
+  }
+  .div4b > h1 {
+    font-size: 19px;
+  }
+  .div4b > p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .div4b > button {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .div7a {
+    gap: 10px;
+  }
+  .section6 {
+    height: 510vh;
+    padding: 12% 5% 0%;
+  }
+  .sec6btn1,
+  .sec6btn2 {
+    top: 7%;
+  }
+  .sec6btn1 {
+    right: 28%;
+  }
+  .row1,
+  .row2,
+  .col1 {
+    gap: 10px;
+  }
+  .div8a {
+    align-items: center;
+  }
+  .footer > p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .section3 > img {
+    margin-top: 0%;
+    height: 20%;
+  }
+  .section4 {
+    height: 150vh;
+  }
+  .div4a {
+    flex-direction: column;
+  }
+  .div4a > img {
+    width: 100%;
+  }
+  .section2b {
+    font-size: 41px;
+  }
+  .div2a {
+    font-size: 10px;
+  }
+  .sec7images {
+    width: 70%;
+    object-fit: cover;
+  }
+  .div7a > p {
+    font-size: 11px;
+  }
+  .div7a > button {
+    width: 80%;
+  }
+  .div8d > button {
+    width: fit-content;
+  }
+  .div8f,
+  .div8e {
+    height: fit-content;
+    width: fit-content;
+    gap: 10px;
+  }
+  .div8f > img {
+    width: 40%;
+  }
+  .div8f > p {
+    font-size: 12px;
+  }
+
+  .sec6btn1 {
+    right: 30%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .div8b {
+    text-align: center;
+  }
+}
